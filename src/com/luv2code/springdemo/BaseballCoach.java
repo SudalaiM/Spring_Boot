@@ -5,7 +5,7 @@ public class BaseballCoach implements Coach {
 	public BaseballCoach() {
 
 	}
-
+//
 	// define the private field for the dependency
 	private FortuneService fortuneService;
 
