@@ -5,7 +5,6 @@ public class BaseballCoach implements Coach {
 	public BaseballCoach() {
 
 	}
-//
 	// define the private field for the dependency
 	private FortuneService fortuneService;
 
@@ -16,6 +15,8 @@ public class BaseballCoach implements Coach {
 
 	@Override
 	public String getDailyWorkout() {
+				System.out.println("daily learn 2 hours in spring boot");
+
 		return "daily learn 2 hours in spring boot";
 	}
 
